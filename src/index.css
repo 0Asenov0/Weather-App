@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #87cefa, #f0f8ff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-app {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  animation: fadeInScale 0.5s ease;
+}
+
+@keyframes fadeInScale {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.weather-app h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.weather-app input {
+  padding: 8px 12px;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.weather-app button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.weather-app button:hover {
+  background-color: #007acc;
+}
+
+.weather-card {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeInScale 0.4s ease;
+}
+
+.weather-card h2 {
+  margin: 0;
+  font-size: 2em;
+  color: #1e90ff;
+}
+
+.weather-card p {
+  margin: 5px 0 15px 0;
+  color: #555;
+  font-weight: 500;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.weather-details div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-details strong {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.weather-icon {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 5px;
+    fill: #1e90ff;
+}
