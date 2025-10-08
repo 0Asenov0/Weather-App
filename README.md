@@ -1,12 +1,25 @@
-# React + Vite
+#  Weather Web Application  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather web application built with **Vite**, **React**, and **JavaScript**.  
+It integrates **OpenStreetMap API** to map city coordinates and **Open-Meteo API** to fetch real-time weather data.  
 
-Currently, two official plugins are available:
+The app is lightweight, fast, and continuously tested using **GitHub Actions** to ensure code reliability.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Features  
+-  Search for any city and get accurate coordinates via **OpenStreetMap**  
+-  Real-time weather data using **Open-Meteo**  
+-  Built with **Vite + React** for a blazing-fast development and production experience  
+-  Automated tests ensure stability and maintainability  
+-  Continuous Integration with **GitHub Actions** — tests run on every push  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack  
+- **Frontend:** Vite, React, JavaScript  
+- **APIs:** OpenStreetMap API, Open-Meteo API  
+- **Testing:** Jest / React Testing Library  
+- **CI/CD:** GitHub Actions  
+
+---
